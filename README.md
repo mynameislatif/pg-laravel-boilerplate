@@ -1,5 +1,9 @@
 ## Welcome to FastLaravel
 
+## Vue 3 + bootstrap 5 + Bootstrap Icons: 
+
+https://github.com/devhau/hoya
+
 # Laravel Boilerplate for AdminLTE Theme
 
 Laravel Boilerplate with [AdminLTE](https://adminlte.io/) Theme with [FastLaravel](https://github.com/FastXGroup/FastLaravel).
