@@ -1,4 +1,4 @@
-## Welcome to FastLaravel
+## Welcome to Laravel Boilerplate
 
 ## Vue 3 + bootstrap 5 + Bootstrap Icons: 
 
