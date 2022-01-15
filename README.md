@@ -49,11 +49,11 @@ Following things are ready to be used directly with AdminLTE Theme.
 5. Run `php artisan migrate --seed`
 6. Run `php artisan serve`
 7. Login account:
-- Supper Admin: admin@fastlaravel.dev/123@12
-- Guest: guest@fastlaravel.dev/123@123
-- Leader: leader@fastlaravel.dev/123@123
+- Supper Admin: hau@hau.xyz/123@123@1234
 
 Once everything is installed, you are ready to go with generator.
+
+see: https://hau.xyz
 
 Contact: nguyenvanhaudev@gmail.com
 

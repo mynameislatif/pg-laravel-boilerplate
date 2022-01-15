@@ -35,47 +35,20 @@ class UserSeeder extends Seeder
     {
         Artisan::call('config:clear');
         // load permission from router name
-     //  $exitCode = Artisan::call('router:permission');
+        $exitCode = Artisan::call('router:permission');
 
         // Supper Admin
         $roleSupperAdmin = $this->roleRepository->create([
             'name' =>    Role::SUPPER_ADMIN,
             'title' => 'Supper Admin',
-            'guard_name' => 'web'
+            'guard_name' => 'api'
         ]);
 
         $userSupperAdmin = $this->userRepository->create([
-            'name' => 'Administrator',
-            'email' => 'admin@fastlaravel.dev',
-            'password' => Hash::make('123@12'),
+            'name' => 'Nguyễn Văn Hậu',
+            'email' => 'hau@hau.xyz',
+            'password' => Hash::make('123@123@1234'),
         ]);
         $userSupperAdmin->assignRole($roleSupperAdmin);
-
-        // Guest
-        $roleGuest = $this->roleRepository->create([
-            'name' =>    Role::GUEST,
-            'title' => 'Guest',
-            'guard_name' => 'web'
-        ]);
-        $userGuest = $this->userRepository->create([
-            'name' => 'Guest',
-            'email' => 'guest@fastlaravel.dev',
-            'password' => Hash::make('123@123'),
-        ]);
-        $userGuest->assignRole($roleGuest);
-        // Leader
-        $roleLeader = $this->roleRepository->create([
-            'name' =>    'leader',
-            'title' => 'Leader',
-            'guard_name' => 'web'
-        ]);
-        $usersPermissions = $this->permissionRepository->getListByName('users.%');
-        $roleLeader->givePermissionTo($usersPermissions);
-        $userLeader = $this->userRepository->create([
-            'name' => 'Leader',
-            'email' => 'leader@fastlaravel.dev',
-            'password' => Hash::make('123@123'),
-        ]);
-        $userLeader->assignRole($roleLeader);
     }
 }
