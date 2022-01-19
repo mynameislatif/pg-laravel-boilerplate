@@ -1,8 +1,15 @@
-## Welcome to Laravel Boilerplate
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-## Vue 3 + bootstrap 5 + Bootstrap Icons: 
+<p align="center">
+<a href="https://travis-ci.org/openhau/laravel-boilerplate"><img src="https://travis-ci.org/openhau/laravel-boilerplate.svg" alt="Build Status"></a>
+<a href="https://github.com/openhau/laravel-boilerplate/blob/master/composer.json"><img src="https://img.shields.io/badge/php-%3E%3D%207.2.5-8892BF.svg" alt="PHP Badge"></a>
+<a href="https://packagist.org/packages/openhau/laravel-boilerplate"><img src="https://poser.pugx.org/openhau/laravel-boilerplate/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/openhau/laravel-boilerplate"><img src="https://poser.pugx.org/openhau/laravel-boilerplate/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/openhau/laravel-boilerplate"><img src="https://poser.pugx.org/openhau/laravel-boilerplate/license.svg" alt="License"></a>
+</p>
 
-https://github.com/devhau/hoya
+# Laravel Boilerplate Project
+
 
 # Laravel Boilerplate for AdminLTE Theme
 
@@ -55,5 +62,8 @@ Once everything is installed, you are ready to go with generator.
 
 see: https://hau.xyz
 
+## Vue 3 + bootstrap 5 + Bootstrap Icons: 
+
+https://github.com/devhau/hoya
 Contact: nguyenvanhaudev@gmail.com
 
