@@ -1,9 +1,5 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-
-# Laravel Boilerplate Project
-
-
 # Laravel Boilerplate for AdminLTE Theme
 
 Laravel Boilerplate with [AdminLTE](https://adminlte.io/) Theme with [FastLaravel](https://github.com/FastXGroup/FastLaravel).
