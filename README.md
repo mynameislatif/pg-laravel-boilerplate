@@ -56,3 +56,9 @@ see: https://hau.xyz
 https://github.com/devhau/hoya
 Contact: nguyenvanhaudev@gmail.com
 
+Donate:
+
+https://www.patreon.com/devhau
+
+http://paypal.me/haudev
+
