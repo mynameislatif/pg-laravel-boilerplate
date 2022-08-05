@@ -19,7 +19,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Role extends Model
 {
     use SoftDeletes;
-    public const SUPPER_ADMIN = "supper-admin";
+    public const SUPER_ADMIN = "super-admin";
     public const GUEST = "guest";
 
     public $table = 'roles';
@@ -57,14 +57,14 @@ class Role extends Model
         'name' => 'required|max:255|unique:roles,name'
     ];
 
-    protected $appends = array('permission_data', 'check_supper_admin');
+    protected $appends = array('permission_data', 'check_SUPER_ADMIN');
     public function getPermissionDataAttribute()
     {
         return $this->permissions->pluck('id', 'id');
     }
 
-    public function getCheckSupperAdminAttribute()
+    public function getCheckSuperAdminAttribute()
     {
-        return $this->name == Role::SUPPER_ADMIN;
+        return $this->name == Role::SUPER_ADMIN;
     }
 }

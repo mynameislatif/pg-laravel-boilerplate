@@ -39,15 +39,15 @@ class UserSeeder extends Seeder
 
         // Supper Admin
         $roleSupperAdmin = $this->roleRepository->create([
-            'name' =>    Role::SUPPER_ADMIN,
-            'title' => 'Supper Admin',
+            'name' =>    Role::SUPER_ADMIN,
+            'title' => 'Super Admin',
             'guard_name' => 'api'
         ]);
 
         $userSupperAdmin = $this->userRepository->create([
-            'name' => 'Nguyễn Văn Hậu',
-            'email' => 'hau@hau.xyz',
-            'password' => Hash::make('123@123@1234'),
+            'name' => 'Super Admin',
+            'email' => 'admin@pglaravel.com',
+            'password' => Hash::make('pass123'),
         ]);
         $userSupperAdmin->assignRole($roleSupperAdmin);
     }

@@ -70,7 +70,7 @@ class User extends Authenticatable
     ];
     public function isSuperAdmin()
     {
-        return $this->hasRole(Role::SUPPER_ADMIN);
+        return $this->hasRole(Role::SUPER_ADMIN);
     }
     protected $appends = array('role_data', 'role_text', 'status_online', 'is_online');
     public function getRoleDataAttribute()
